@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>R&R Solutions | AI Automation for Businesses</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+
+:root{
+  --primary:#1f5f99;
+  --dark:#0f172a;
+  --light:#f8fafc;
+}
+
+*{box-sizing:border-box}
+body{
+  margin:0;
+  font-family:Inter, sans-serif;
+  background:var(--light);
+  color:#0f172a;
+}
+
+/* NAV */
+.nav{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:20px 8%;
+  background:white;
+  border-bottom:1px solid #e2e8f0;
+}
+
+.logo{
+  font-weight:700;
+  font-size:20px;
+}
+
+.cta{
+  background:var(--primary);
+  color:white;
+  padding:10px 16px;
+  border-radius:8px;
+  text-decoration:none;
+}
+
+/* HERO */
+.hero{
+  padding:80px 8%;
+  text-align:center;
+}
+
+.hero h1{
+  font-size:42px;
+  max-width:700px;
+  margin:auto;
+}
+
+.hero p{
+  margin-top:16px;
+  color:#475569;
+  max-width:600px;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.hero .cta{
+  display:inline-block;
+  margin-top:24px;
+}
+
+/* SECTION */
+.section{
+  padding:60px 8%;
+}
+
+.grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+  gap:20px;
+}
+
+.card{
+  background:white;
+  padding:20px;
+  border-radius:12px;
+  border:1px solid #e2e8f0;
+}
+
+/* PROCESS */
+.steps{
+  display:grid;
+  gap:20px;
+}
+
+.step{
+  background:white;
+  padding:20px;
+  border-radius:12px;
+  border-left:4px solid var(--primary);
+}
+
+/* FOOTER */
+.footer{
+  text-align:center;
+  padding:40px;
+  background:white;
+  border-top:1px solid #e2e8f0;
+}
+
+</style>
+</head>
+
+<body>
+
+<!-- NAV -->
+<div class="nav">
+  <div class="logo">R&R Solutions</div>
+  <a href="YOUR_GOOGLE_FORM_LINK" class="cta">Get Started</a>
+</div>
+
+<!-- HERO -->
+<div class="hero">
+  <h1>Replace Repetitive Work with AI Automation</h1>
+  <p>
+    We help businesses eliminate manual, time-consuming tasks using secure AI systems — 
+    so your team can focus on what actually drives growth.
+  </p>
+  <a href="YOUR_GOOGLE_FORM_LINK" class="cta">Automate My Work</a>
+</div>
+
+<!-- WHAT WE DO -->
+<div class="section">
+  <h2>What We Do</h2>
+  <div class="grid">
+
+    <div class="card">
+      <h3>Automate Repetitive Tasks</h3>
+      <p>From spreadsheets to reports, we handle the boring work so you don’t have to.</p>
+    </div>
+
+    <div class="card">
+      <h3>Custom AI Workflows</h3>
+      <p>Every business is different — we build systems tailored to your exact processes.</p>
+    </div>
+
+    <div class="card">
+      <h3>Secure Data Handling</h3>
+      <p>Your data stays protected. We prioritize privacy at every stage.</p>
+    </div>
+
+  </div>
+</div>
+
+<!-- USE CASES -->
+<div class="section">
+  <h2>Common Use Cases</h2>
+  <div class="grid">
+
+    <div class="card">Excel → Reports → Presentations</div>
+    <div class="card">Data Entry & Cleanup</div>
+    <div class="card">Lead Processing</div>
+    <div class="card">Document Formatting</div>
+    <div class="card">Bulk Data Analysis</div>
+
+  </div>
+</div>
+
+<!-- HOW IT WORKS -->
+<div class="section">
+  <h2>How It Works</h2>
+
+  <div class="steps">
+
+    <div class="step">
+      <b>1. You share your workflow</b><br>
+      Tell us what tasks you want automated.
+    </div>
+
+    <div class="step">
+      <b>2. We build your AI system</b><br>
+      We design and optimize a custom automation setup.
+    </div>
+
+    <div class="step">
+      <b>3. You review outputs</b><br>
+      Nothing goes live without your approval.
+    </div>
+
+    <div class="step">
+      <b>4. Fully automated execution</b><br>
+      Your tasks get completed faster, consistently, and at scale.
+    </div>
+
+  </div>
+</div>
+
+<!-- FINAL CTA -->
+<div class="section" style="text-align:center;">
+  <h2>Stop Wasting Time on Manual Work</h2>
+  <p>Let AI handle it — while you focus on growing your business.</p>
+  <a href="YOUR_GOOGLE_FORM_LINK" class="cta">Start Now</a>
+</div>
+
+<!-- FOOTER -->
+<div class="footer">
+  © 2026 R&R Solutions. All rights reserved.
+</div>
+
+</body>
+</html>
